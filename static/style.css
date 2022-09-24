@@ -166,7 +166,7 @@
   height: 800px;
   background: center/cover no-repeat url("/static/s1.jpg");
 }
-@media screen and (max-width:786px) {
+@media (min-width:480px) {
 
   #main ::before{
   height: 100%;
@@ -261,7 +261,7 @@
     border-radius: 15px;
   }
 }
-@media screen and (max-width:480px) {
+@media (min-width:786px) {
 
   #main ::before{
   height: 100%;
@@ -356,25 +356,25 @@
     border-radius: 15px;
   }
 }
-@media screen and (max-width:480px) {
+@media (min-width:320px) {
 
   #main ::before{
   height: 100%;
-  width: 100%;
+  width: 101%;
   }
   #main #navbar li a{
       padding: 17px 35px;
       font-size: 28px;
   }
   #main #home{
-    height: 774px;
+    height: 743px;
   }
   #main #home h1{
     padding: 12px 12px;
     font-size: 35px;
   }
   #service {
-    height: 84pc;
+    height: 94pc;
     width: 101%;
   }
   #service #ser h1 {
@@ -391,7 +391,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1200px;
+    height: 1360px;
   }
   #boxes #box1 h1{
     font-size: 35px;
@@ -433,21 +433,21 @@
   #box1{
     padding: 24px 34px;
     margin: 24px 120px;
-    height: 330px;
-    width: 280px;
+    height: 380px;
+    width: 230px;
   }
   #box2{
     padding: 24px 34px;
     margin: 24px 120px;
-    height: 330px;
-    width: 280px;
+    height: 380px;
+    width: 230px;
     border-radius: 15px;
   }
   #box3{
     padding: 24px 34px;
     margin: 24px 120px;
-    height: 330px;
-    width: 280px;
+    height: 380px;
+    width: 230px;
     border-radius: 15px;
   }
 }
