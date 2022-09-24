@@ -166,7 +166,7 @@
   height: 800px;
   background: center/cover no-repeat url("/static/s1.jpg");
 }
-@media (min-width:480px) {
+/* @media (min-width:480px) {
 
   #main ::before{
   height: 100%;
@@ -220,8 +220,8 @@
     font-size: 22px;
     color: antiquewhite;
     /* text-shadow: wheat -1px 0px; */
-  }
-  #boxes #box3 #p p{
+/*   }
+/*  #boxes #box3 #p p{
     font-size: 22px;
     color: antiquewhite;
   }
@@ -315,7 +315,7 @@
     font-size: 22px;
     color: antiquewhite;
     /* text-shadow: wheat -1px 0px; */
-  }
+ /* }
   #boxes #box3 #p p{
     font-size: 22px;
     color: antiquewhite;
@@ -410,7 +410,7 @@
     font-size: 22px;
     color: antiquewhite;
     /* text-shadow: wheat -1px 0px; */
-  }
+  /*}
   #boxes #box3 #p p{
     font-size: 22px;
     color: antiquewhite;
@@ -450,4 +450,5 @@
     width: 230px;
     border-radius: 15px;
   }
-}
+} 
+ */
