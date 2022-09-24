@@ -166,41 +166,26 @@
   height: 800px;
   background: center/cover no-repeat url("/static/s1.jpg");
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:786px) {
 
   #main ::before{
-  background: center center/cover no-repeat url("/static/d4.jpg");
-  position: absolute;
-  content: "";
-  top : 0;
-  left: 0;
   height: 100%;
   width: 100%;
-  z-index: -1;
   }
   #main #navbar li a{
-      text-decoration: none;
       padding: 17px 35px;
-      color: wheat;
       font-size: 28px;
   }
-  
   #main #home{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: large; */
     height: 774px;
   }
   #main #home h1{
-    color: wheat;
     padding: 12px 12px;
     font-size: 35px;
   }
   #service {
     height: 84pc;
     width: 101%;
-    background: center/cover no-repeat url("/static/s3.jpg");
   }
   #service #ser h1 {
     font-size: 45px;
@@ -256,53 +241,213 @@
     width: 170px;
   }
   #box1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: brown;
     padding: 24px 34px;
     margin: 24px 120px;
     height: 330px;
     width: 280px;
-    border-radius: 15px;
-    align-items: center;
-    justify-content: center;
-    animation-name: box1;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-delay: 3s;
   }
   #box2{
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: yellow;
     padding: 24px 34px;
     margin: 24px 120px;
     height: 330px;
     width: 280px;
     border-radius: 15px;
-    animation-name: box1;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-delay: 3s;
   }
   #box3{
+    padding: 24px 34px;
+    margin: 24px 120px;
+    height: 330px;
+    width: 280px;
+    border-radius: 15px;
+  }
+}
+@media screen and (max-width:480px) {
+
+  #main ::before{
+  height: 100%;
+  width: 100%;
+  }
+  #main #navbar li a{
+      padding: 17px 35px;
+      font-size: 28px;
+  }
+  #main #home{
+    height: 774px;
+  }
+  #main #home h1{
+    padding: 12px 12px;
+    font-size: 35px;
+  }
+  #service {
+    height: 84pc;
+    width: 101%;
+  }
+  #service #ser h1 {
+    font-size: 45px;
+    padding: 25px 10px;
+    text-shadow: black -3px 2px;
+    margin: 12px 12px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+  }
+  #boxes{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #745145;
+    height: 1200px;
+  }
+  #boxes #box1 h1{
+    font-size: 35px;
+    text-shadow: wheat 0px -1px;
+
+  }
+  #boxes #box2 h1{
+    font-size: 35px;
+    text-shadow: wheat 0px -1px;
+  }
+  #boxes #box3 h1{
+    font-size: 35px;
+    text-shadow: wheat 0px -1px;
+  }
+  #boxes #box1 #p p{
+    font-size: 22px;
+    color: antiquewhite;
+    /* text-shadow: wheat -1px 0px; */
+  }
+  #boxes #box3 #p p{
+    font-size: 22px;
+    color: antiquewhite;
+  }
+  #boxes #box2 #p p{
+    font-size: 22px;
+  }
+  #boxes #box1 #img img {
+    height: 105px;
+    width: 170px;
+  } 
+  #boxes #box2 #img img {
+    height: 105px;
+    width: 170px;
+  }
+  #boxes #box3 #img img {
+    height: 105px;
+    width: 170px;
+  }
+  #box1{
+    padding: 24px 34px;
+    margin: 24px 120px;
+    height: 330px;
+    width: 280px;
+  }
+  #box2{
     padding: 24px 34px;
     margin: 24px 120px;
     height: 330px;
     width: 280px;
     border-radius: 15px;
-    animation-name: box1;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-delay: 3s;
+  }
+  #box3{
+    padding: 24px 34px;
+    margin: 24px 120px;
+    height: 330px;
+    width: 280px;
+    border-radius: 15px;
+  }
+}
+@media screen and (max-width:480px) {
+
+  #main ::before{
+  height: 100%;
+  width: 100%;
+  }
+  #main #navbar li a{
+      padding: 17px 35px;
+      font-size: 28px;
+  }
+  #main #home{
+    height: 774px;
+  }
+  #main #home h1{
+    padding: 12px 12px;
+    font-size: 35px;
+  }
+  #service {
+    height: 84pc;
+    width: 101%;
+  }
+  #service #ser h1 {
+    font-size: 45px;
+    padding: 25px 10px;
+    text-shadow: black -3px 2px;
+    margin: 12px 12px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+  }
+  #boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+  }
+  #boxes #box1 h1{
+    font-size: 35px;
+    text-shadow: wheat 0px -1px;
+
+  }
+  #boxes #box2 h1{
+    font-size: 35px;
+    text-shadow: wheat 0px -1px;
+  }
+  #boxes #box3 h1{
+    font-size: 35px;
+    text-shadow: wheat 0px -1px;
+  }
+  #boxes #box1 #p p{
+    font-size: 22px;
+    color: antiquewhite;
+    /* text-shadow: wheat -1px 0px; */
+  }
+  #boxes #box3 #p p{
+    font-size: 22px;
+    color: antiquewhite;
+  }
+  #boxes #box2 #p p{
+    font-size: 22px;
+  }
+  #boxes #box1 #img img {
+    height: 105px;
+    width: 170px;
+  } 
+  #boxes #box2 #img img {
+    height: 105px;
+    width: 170px;
+  }
+  #boxes #box3 #img img {
+    height: 105px;
+    width: 170px;
+  }
+  #box1{
+    padding: 24px 34px;
+    margin: 24px 120px;
+    height: 330px;
+    width: 280px;
+  }
+  #box2{
+    padding: 24px 34px;
+    margin: 24px 120px;
+    height: 330px;
+    width: 280px;
+    border-radius: 15px;
+  }
+  #box3{
+    padding: 24px 34px;
+    margin: 24px 120px;
+    height: 330px;
+    width: 280px;
+    border-radius: 15px;
   }
 }
